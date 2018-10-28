@@ -1,0 +1,59 @@
+2018-10-28 12:24:00.663 +05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-28 12:24:00.813 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 12:24:00.823 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 12:24:00.832 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 12:24:00.834 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 12:24:00.835 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 12:24:08.010 +05:00 [ERR] An error occurred using the connection to database '' on server '127.0.0.1'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.<ConnectAsync>d__58.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 322
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlConnection.<CreateSessionAsync>d__91.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 416
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   at MySql.Data.MySqlClient.MySqlConnection.<OpenAsync>d__25.MoveNext() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 183
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlConnection.Open() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 161
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+2018-10-28 14:00:22.752 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 14:00:22.852 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 14:00:22.853 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 14:00:22.854 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 14:00:22.855 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 20:47:41.008 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 20:47:41.177 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 20:47:41.179 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 20:47:41.181 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 20:47:41.183 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 21:04:53.008 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 21:04:53.077 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 21:04:53.078 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 21:04:53.078 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 21:04:53.079 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 22:34:08.672 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 22:34:08.754 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 22:34:08.754 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 22:34:08.755 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 22:34:08.755 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 22:50:01.575 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 22:50:01.622 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 22:50:01.625 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 22:50:01.628 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 22:50:01.630 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 23:02:59.515 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 23:02:59.565 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 23:02:59.566 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 23:02:59.567 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 23:02:59.567 +05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-10-28 23:05:08.346 +05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-10-28 23:05:08.395 +05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-10-28 23:05:08.396 +05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-10-28 23:05:08.396 +05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-10-28 23:05:08.397 +05:00 [DBG] Using Identity.Application as default scheme for forbid
